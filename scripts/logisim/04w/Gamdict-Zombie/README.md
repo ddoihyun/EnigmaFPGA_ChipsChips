@@ -3,4 +3,3 @@
 ![pic03](./src/03.png)
 ![pic04](./src/04.png)
 ![pic05](./src/05.png)
-![pic06](./src/06.png)
