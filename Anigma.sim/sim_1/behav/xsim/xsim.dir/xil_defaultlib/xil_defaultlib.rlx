@@ -1,0 +1,17 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+D:/Handong/2024.01/Vivado/Anigma/Anigma.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sim_1/new/tb_Anigma.v,1723466992,verilog,,,,tb_Anigma,,,,,,,,
+D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sources_1/new/LabMain.v,1722906919,verilog,,,,LabMain,,,,,,,,
+D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sources_1/new/MainBlock.v,1723599744,verilog,,D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sources_1/new/Turntable1.v,,MainBlock,,,,,,,,
+D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sources_1/new/Turntable1.v,1723467032,verilog,,D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sources_1/new/Turntable2.v,,Turntable1,,,,,,,,
+D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sources_1/new/Turntable2.v,1723467068,verilog,,D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sources_1/new/Turntable3.v,,Turntable2,,,,,,,,
+,,,,D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sources_1/new/reflextable.v,,Turntable3,,,,,,,,
+D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sources_1/new/reflextable.v,1723467098,verilog,,D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sources_1/new/reverse1.v,,reflextable,,,,,,,,
+D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sources_1/new/reverse1.v,1722905079,verilog,,D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sources_1/new/reverse2.v,,reverse1,,,,,,,,
+D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sources_1/new/reverse2.v,1722905244,verilog,,D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sources_1/new/reverse3.v,,reverse2,,,,,,,,
+,,,,D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sim_1/new/tb_Anigma.v,,reverse3,,,,,,,,
+D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sources_1/new/test.v,1723464889,verilog,,D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sim_1/new/tb_Anigma.v,,test,,,,,,,,
+D:/Handong/2024.01/기초회로 및 논리실습/15주차/source_upload/source_upload/Dsp7Seg.v,1718261874,verilog,,D:/Handong/2024.01/Vivado/Anigma/Anigma.srcs/sources_1/new/MainBlock.v,,Dsp7Seg,,,,,,,,

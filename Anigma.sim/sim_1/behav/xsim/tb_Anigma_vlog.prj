@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Anigma.srcs/sources_1/new/MainBlock.v" \
+"../../../../Anigma.srcs/sources_1/new/Turntable1.v" \
+"../../../../Anigma.srcs/sources_1/new/Turntable2.v" \
+"../../../../Anigma.srcs/sources_1/new/Turntable3.v" \
+"../../../../Anigma.srcs/sources_1/new/reflextable.v" \
+"../../../../Anigma.srcs/sources_1/new/reverse1.v" \
+"../../../../Anigma.srcs/sources_1/new/reverse2.v" \
+"../../../../Anigma.srcs/sources_1/new/reverse3.v" \
+"../../../../Anigma.srcs/sim_1/new/tb_Anigma.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
