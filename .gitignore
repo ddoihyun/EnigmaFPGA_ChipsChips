@@ -1,1 +1,8 @@
-.DS Store
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+
+EnigmaFPGA.cache/
+EnigmaFPGA.hw/
+EnigmaFPGA.ip_user_files/
