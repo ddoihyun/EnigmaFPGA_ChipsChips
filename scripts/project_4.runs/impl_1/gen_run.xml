@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1725542156">
+  <File Type="BITSTR-BMM" Name="Enigma_top_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Enigma_top_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Enigma_top_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="Enigma_top_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Enigma_top.tcl"/>
+  <File Type="OPT-TIMING" Name="Enigma_top_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Enigma_top_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="Enigma_top_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Enigma_top_reports.tcl"/>
+  <File Type="OPT-DRC" Name="Enigma_top_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Enigma_top.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Enigma_top_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Enigma_top_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Enigma_top_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Enigma_top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Enigma_top_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Enigma_top_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Enigma_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Enigma_top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Enigma_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Enigma_top_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Enigma_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="Enigma_top.bgn"/>
+  <File Type="PLACE-TIMING" Name="Enigma_top_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Enigma_top_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Enigma_top.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Enigma_top_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Enigma_top_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Enigma_top_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="Enigma_top.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="Enigma_top_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Enigma_top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Enigma_top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Enigma_top_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Enigma_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Enigma_top_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Enigma_top.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="Enigma_top_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="Enigma_top.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Enigma_top_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Enigma_top_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="Enigma_top.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Enigma_top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Enigma_top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Enigma_top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Enigma_top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Enigma_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Enigma_top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Enigma_top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Enigma_top_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Enigma_top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Enigma_top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Enigma_top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Enigma_top_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Enigma_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Enigma_top_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Enigma_top_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Enigma_top_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Enigma_top_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Enigma_top_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Enigma_top_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Enigma_top.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Enigma_top_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="Enigma_top.rbt"/>
+  <File Type="BITSTR-NKY" Name="Enigma_top.nky"/>
+  <File Type="BG-DRC" Name="Enigma_top.drc"/>
+  <File Type="RDI-RDI" Name="Enigma_top.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Binary_5bit_Adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/Binary_5bit_Adder.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Binary_5bit_Modulus.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/Binary_5bit_Modulus.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Binary_5bit_Subtractor.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/Binary_5bit_Subtractor.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Full_Adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/Full_Adder.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Full_Subtractor.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/Full_Subtractor.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/IO_module.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MainBlock.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/MainBlock.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Tfunction1_V2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/Tfunction1_V2.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Tfunction2_V2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/Tfunction2_V2.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Turning_Function_1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/Turning_Function_1.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Turning_Function_2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/Turning_Function_2.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Turning_Function_3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/Turning_Function_3.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Turntable1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/Turntable1.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Turntable2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/Turntable2.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Turntable3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/Turntable3.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/reflextable.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/reflextable.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/reverse1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/reverse1.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/reverse2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/reverse2.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/reverse3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/reverse3.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Enigma_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Register.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/Register.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Tfunction1.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/Tfunction1.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Tfunction2.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/Tfunction2.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/counter_74163.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/counter_74163.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/LabMain.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../enigma/EnigmaProject.srcs/sources_1/new/LabMain.v"/>
+        <Attr Name="ImportTime" Val="1724921769"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Enigma_top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../Downloads/Nexys-A7-100T-Master-1.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
