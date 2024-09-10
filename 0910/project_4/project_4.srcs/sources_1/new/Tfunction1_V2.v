@@ -31,7 +31,7 @@ module Tfunction1_V2(
         of = 1'b0;
     end
     
-    always @ (posedge Clk) begin
+    always @ (posedge Clk, posedge ClrN) begin
         if(ClrN == 1) begin
             D_out <= 5'b00000;
             of    <= 1'b0;

@@ -11,3 +11,4 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/NTH417/EnigmaFPGA_ChipsChips/scripts/project_4.xpr
+update_compile_order -fileset sources_1

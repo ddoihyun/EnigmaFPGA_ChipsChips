@@ -26,7 +26,7 @@ output [7:0] AN
         if(BTNC)
             count <= 0;
         else if(count < 26)
-            count <= count + 1;
+            count <= count  + 1;
         else
             count <= 0;
     end

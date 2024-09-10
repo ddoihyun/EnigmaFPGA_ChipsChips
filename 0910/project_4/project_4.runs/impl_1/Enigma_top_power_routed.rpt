@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date             : Tue Sep 10 11:20:36 2024
+| Date             : Tue Sep 10 12:29:49 2024
 | Host             : DESKTOP-26K2HPL running 64-bit major release  (build 9200)
 | Command          : report_power -file Enigma_top_power_routed.rpt -pb Enigma_top_power_summary_routed.pb -rpx Enigma_top_power_routed.rpx
 | Design           : Enigma_top
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+----------------------------------+
-| Total On-Chip Power (W)  | 46.818 (Junction temp exceeded!) |
+| Total On-Chip Power (W)  | 47.124 (Junction temp exceeded!) |
 | Design Power Budget (W)  | Unspecified*                     |
 | Power Budget Margin (W)  | NA                               |
-| Dynamic (W)              | 46.021                           |
+| Dynamic (W)              | 46.327                           |
 | Device Static (W)        | 0.797                            |
 | Effective TJA (C/W)      | 4.6                              |
 | Max Ambient (C)          | 0.0                              |
@@ -52,15 +52,15 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |    11.472 |      252 |       --- |             --- |
-|   LUT as Logic |    11.448 |      181 |     63400 |            0.29 |
+| Slice Logic    |    11.523 |      251 |       --- |             --- |
+|   LUT as Logic |    11.499 |      181 |     63400 |            0.29 |
 |   Register     |     0.018 |       22 |    126800 |            0.02 |
 |   BUFG         |     0.006 |        1 |        32 |            3.13 |
-|   Others       |     0.000 |        6 |       --- |             --- |
-| Signals        |     9.131 |      232 |       --- |             --- |
+|   Others       |     0.000 |        5 |       --- |             --- |
+| Signals        |     9.387 |      233 |       --- |             --- |
 | I/O            |    25.417 |       27 |       210 |           12.86 |
 | Static Power   |     0.797 |          |           |                 |
-| Total          |    46.818 |          |           |                 |
+| Total          |    47.124 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -70,7 +70,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |    21.190 |      20.627 |      0.563 |
+| Vccint    |       1.000 |    21.496 |      20.934 |      0.563 |
 | Vccaux    |       1.800 |     1.023 |       0.931 |      0.093 |
 | Vcco33    |       3.300 |     7.191 |       7.187 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -137,11 +137,11 @@ Table of Contents
 +------------+-----------+
 | Name       | Power (W) |
 +------------+-----------+
-| Enigma_top |    46.021 |
-|   U0       |    20.456 |
-|     F0     |    18.882 |
-|     F1     |     0.816 |
-|     F2     |     0.758 |
+| Enigma_top |    46.327 |
+|   U0       |    20.767 |
+|     F0     |    19.318 |
+|     F1     |     0.698 |
+|     F2     |     0.752 |
 +------------+-----------+
 
 
