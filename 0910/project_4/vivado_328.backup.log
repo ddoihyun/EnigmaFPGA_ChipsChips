@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Sep  9 22:25:18 2024
+# Process ID: 328
+# Current directory: C:/Users/NTH417/Desktop/project_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5084 C:\Users\NTH417\Desktop\project_4\project_4.xpr
+# Log file: C:/Users/NTH417/Desktop/project_4/vivado.log
+# Journal file: C:/Users/NTH417/Desktop/project_4\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/Vivado/2018.3/scripts/Vivado_init.tcl'
+start_gui
+opeopen_project C:/Users/NTH417/Desktop/project_4/project_4.xWARWARNING: [Board 49-91] Board repository path 'C:XilinxVivadooard_files' does not exist, it will not be used to search board fileScanning sources...
+FinFinished scanning sourcINFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFINFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ipopen_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 829.145 ; gain = 160.566
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep  9 22:38:19 2024...
+T-Master-1.xdc -to_files C:/Users/NTH417/Downloads/Nexys-A7-100T-Master-1.xdc -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/NTH417/Downloads/Nexys-A7-100T-Master-1.xdc' with file 'C:/Users/NTH417/Desktop/project_4/Nexys-A7-100T-Master-1.xdc'.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep  9 22:30:49 2024...
